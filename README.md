@@ -18,11 +18,9 @@ POST https://epotion-api.herokuapp.com/events
     emotion: { type: String },
     age: { type: Number },
     gender: { type: String },
-    custom: { type: Map, of: String },
 }
 ```
 
-Creates event and saves it to the database.
 **Returns:** ID of created event.
 
 ### Get event ☁️
