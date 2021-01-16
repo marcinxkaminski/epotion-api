@@ -34,7 +34,7 @@ GET https://epotion-api.herokuapp.com/events/{eventId}
 ### Events statistics 📈
 
 ```
-GET https://epotion-api.herokuapp.com/statistics/eventsIds={eventId1},{eventId2}...
+GET https://epotion-api.herokuapp.com/statistics/?eventsIds={eventId1},{eventId2}...
 ```
 
 **Returns:** statistics for the events
@@ -42,14 +42,14 @@ GET https://epotion-api.herokuapp.com/statistics/eventsIds={eventId1},{eventId2}
 ### Page statistics 📊
 
 ```
-GET https://epotion-api.herokuapp.com/statistics/url={pageUrl}
+GET https://epotion-api.herokuapp.com/statistics/?url={pageUrl}
 ```
 
 **Returns:** statistics for the page
 
 ### Notes
 
-- Statistics could be combined. You can get both page and events statistics using one request, e.g. `https://epotion-api.herokuapp.com/statistics/url=somePageUrl.com&eventsIds=someEventId1,someEventId2`
+- Statistics could be combined. You can get both page and events statistics using one request, e.g. `https://epotion-api.herokuapp.com/statistics/?url=somePageUrl.com&eventsIds=someEventId1,someEventId2`
 
 ## Future Work 🔮
 
