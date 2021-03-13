@@ -4,7 +4,6 @@ const EventSchema = new mongoose.Schema(
   {
     country: { type: String },
     city: { type: String },
-    ip: { type: String },
     url: { type: String },
     emotion: { type: String },
     age: { type: Number },
